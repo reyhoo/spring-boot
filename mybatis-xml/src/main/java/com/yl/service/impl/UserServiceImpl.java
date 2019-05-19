@@ -1,6 +1,6 @@
 package com.yl.service.impl;
 
-import com.yl.mapper.UserMapper;
+import com.yl.dao.UserMapper;
 import com.yl.pojo.User;
 import com.yl.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

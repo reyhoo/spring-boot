@@ -10,7 +10,7 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
  * Created by summer on 2017/5/8.
  */
 @SpringBootApplication
-@MapperScan("com.yl.mappers")
+@MapperScan("com.yl.dao")
 public class MyApplication extends SpringBootServletInitializer {
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
