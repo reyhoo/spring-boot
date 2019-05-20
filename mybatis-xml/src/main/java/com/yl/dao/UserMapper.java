@@ -13,10 +13,10 @@ public interface UserMapper {
     User selectOne(@Param("id") Long id);
 
 
-
-    @Select("select * from ec_user")
-    @Results({@Result(id = true,column = "id",property = "id")
-    ,@Result(id = false,column = "username",property = "username"),
-            @Result(id = false,column = "sex",property = "sex",typeHandler = SexEnumTypeHandler.class)})
+//
+//    @Select("select * from ec_user")
+//    @Results({@Result(id = true,column = "id",property = "id")
+//    ,@Result(id = false,column = "username",property = "username"),
+//            @Result(id = false,column = "sex",property = "sex",typeHandler = SexEnumTypeHandler.class)})
     List<User> selectAll();
 }

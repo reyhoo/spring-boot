@@ -9,7 +9,7 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
 /**
  * Created by summer on 2017/5/8.
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.yl")
 @MapperScan("com.yl.dao")
 public class MyApplication extends SpringBootServletInitializer {
     @Override
