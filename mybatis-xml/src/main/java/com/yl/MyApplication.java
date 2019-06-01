@@ -11,11 +11,7 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
  */
 @SpringBootApplication(scanBasePackages = "com.yl")
 @MapperScan("com.yl.dao")
-public class MyApplication extends SpringBootServletInitializer {
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(MyApplication.class);
-    }
+public class MyApplication {
     public static void main(String[] args) {
         SpringApplication.run(MyApplication.class, args);
     }

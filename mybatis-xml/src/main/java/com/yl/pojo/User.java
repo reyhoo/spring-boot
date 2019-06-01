@@ -30,5 +30,7 @@ public class User implements Serializable {
 
     public void setSex(SexEnum sex) {
         this.sex = sex;
+        UserInfo userInfo = new UserInfo();
+
     }
 }
